@@ -1,9 +1,5 @@
 package com.ajudar.velhoaprendiz;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,6 +8,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
@@ -87,11 +88,6 @@ public class MainActivity extends AppCompatActivity implements FragmentBoleto.On
                 Toast.makeText(MainActivity.this, "Você saiu",Toast.LENGTH_SHORT).show();
                 finish();
                 return true;
-
-            //IMPLEMENTAR CÓDIGO DEFINITIVO
-            //case R.id.submenuConfigDeletar:
-               // Toast.makeText(this, "Deletar selecionado", Toast.LENGTH_SHORT).show();
-                //return true;
 
             default:
                 return super.onOptionsItemSelected(item);

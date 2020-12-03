@@ -33,5 +33,4 @@ dependencies {
     implementation 'com.android.support:design:26.0.0-alpha1'
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 
-
 }
